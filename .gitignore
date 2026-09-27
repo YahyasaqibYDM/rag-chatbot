@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Secrets (KABHI upload nahi karni!)
+.env
+
+# Database & uploads (bari files)
+chroma_db/
+uploaded_document.pdf
+uploaded_video.mp4
+video_script.txt
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
